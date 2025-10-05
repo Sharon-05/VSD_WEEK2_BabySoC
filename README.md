@@ -46,27 +46,20 @@ Steps:
 * `dump.vcd` – Waveform data
 * Simulation logs and verification reports
 
-### How to Reproduce
 
-**1. Install Dependencies**
-
-```bash
-sudo apt-get install iverilog gtkwave
-```
-
-**2. Compile Design**
+**Compile Design**
 
 ```bash
 iverilog -o output/simulation_results/babysoc.out -I src/include -I src/module src/module/testbench.v src/module/*.v
 ```
 
-**3. Run Simulation**
+**Run Simulation**
 
 ```bash
 cd output/simulation_results ./babysoc.out
 ```
 
-**4. View Waveforms**
+**Waveforms**
 
 ```bash
 gtkwave dump.vcd
