@@ -22,7 +22,7 @@ read_verilog -I src/include src/module/clk_gate.v
 
 <img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/34618963-c09e-4c2a-9788-f8723deac071" />
 
-<img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/e78fca64-8eed-43dd-8c45-dea156d65242" />
+
 
 <img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/c53a44ea-66a8-457c-84a2-3cc043fbddcb" />
 
